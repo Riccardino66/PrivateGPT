@@ -306,6 +306,9 @@ class UISettings(BaseModel):
     delete_all_files_button_enabled: bool = Field(
         False, description="If the button to delete all files is enabled or not."
     )
+    adjust_temperature_enabled: bool = Field(
+        False, description="If editing function of the Model temperature is enabled or not"
+    )
 
 
 class RerankSettings(BaseModel):

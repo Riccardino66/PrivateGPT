@@ -33,6 +33,7 @@ ui:
     the answer, just state the answer is not in the context provided.
   delete_file_button_enabled: true
   delete_all_files_button_enabled: true
+  adjust_temperature_enabled: true
 
 llm:
   mode: llamacpp
